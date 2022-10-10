@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Interactive Rating Component</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="card-rating">
+        <div class="star-icon">
+          <img src="images/icon-star.svg" alt="star-icon" />
+        </div>
+
+        <h1 class="card_title">How did we do?</h1>
+        <p class="card_description">
+          please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+
+        <!--class = rating-btn-container-->
+        <div class="rating-btn-container">
+          <button class="rating_btn" data-value="1" type="button">1</button>
+          <button class="rating_btn" data-value="2" type="button">2</button>
+          <button class="rating_btn" data-value="3" type="button">3</button>
+          <button class="rating_btn" data-value="4" type="button">4</button>
+          <button class="rating_btn" data-value="5" type="button">5</button>
+        </div>
+        <button class="sub_btn" onclick="showFeedBack()">SUBMIT</button>
+      </div>
+
+      <div hidden id="model" class="container">
+        <div class="thanks-icon">
+          <img src="images/illustration-thank-you.svg" alt="ThankYouLogo" />
+        </div>
+
+        <p class="rating_result">
+          You selected <span class="selected-rating"> 0 </span> out of 5
+        </p>
+
+        <h1 class="thanks_card_title">Thank you!</h1>
+        <p class="thanks_card_description">
+          we appreciate you taking the time to give a rating. if you ever need
+          more support. don't hesitate to <br />
+          get in touch!
+        </p>
+      </div>
+
+      <div class="overlay hidden"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
