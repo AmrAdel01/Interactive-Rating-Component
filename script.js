@@ -1,12 +1,12 @@
 "use strict";
 
 
-<!--List Item-->
+
 const btns = document.querySelectorAll(".rating_btn");
 const submit = document.querySelector(".sub_btn");
 const removeCardRating = document.querySelector(".card-rating");
 const showModel = document.getElementById("model");
-<!--Rates-->
+
 const selectedRating = document.querySelector(".selected-rating");
 
 let RateValue =0;
