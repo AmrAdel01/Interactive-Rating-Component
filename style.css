@@ -90,8 +90,8 @@ body {
 .sub_btn {
   border: 0;
   outline: 0;
-  background-color:hsl(0, 0%, 100%);
-  color: hsl(25, 97%, 53%);
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,8 +107,8 @@ body {
 }
 
 .sub_btn:hover {
-  background-color: hsl(25, 97%, 53%);
-  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
   font-family: 700;
 }
 
